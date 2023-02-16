@@ -1,0 +1,83 @@
+html {
+    box-sizing: border-box;
+    -ms-overflow-style: scrollbar;
+}
+
+*,::after,::before {
+    box-sizing: inherit;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html, body {
+    font-family: 'PT Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #090f1b;
+    scroll-behavior: smooth;
+}
+
+p {
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'PT Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+#redes {
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    margin: 15px auto;
+}
+
+#redes h1 {
+    background: rgba(0, 2, 1, 0.178);
+    text-align: center;
+    justify-content: center;
+    text-transform: uppercase;
+    font-size: 55px;
+    font-weight: 700;
+    margin: 10px auto;
+}
+
+.github {
+    border-radius: 255px;
+    letter-spacing: 25px;
+    width: 15vh;
+    background: #fff;
+}
+
+.typing-info img{
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+}
+
+.github-info {
+    text-align: center;
+    margin: 5px auto;
+    justify-content: center;
+}
+
+.info-imgs img {
+    text-align: left;
+    justify-content: left;
+}
+
+.info-works {
+    text-align: justify;
+    margin: 5px auto;
+}
+
+.perfil {
+    border-radius: 155px;
+    letter-spacing: 25px;
+}
